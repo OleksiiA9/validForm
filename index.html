@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>validForm</title>
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+</head>
+<body>
+    <form action="" method="post" name="form" id="form">
+        <label for="name">Имя:</label>
+            <input type="text" name="name" id="name" placeholder="Name" id="name"><br/>
+        <label for="email">Email:</label>
+            <input type="text" name="email" id="email" placeholder="Email"><br/>
+        <label for="password">Пароль:</label>
+            <input type="password" name="password" placeholder="password" id="password"><br/>
+        <label for="RePassword">Пароль:</label>
+            <input type="password" name="RePassword" id="RePassword" placeholder="enter the password"><br/>
+        <span>Sex:</span>
+            <input type="radio" name="sex" id="male" value="male"><label for="male">Mужской</label>
+            <input type="radio" name="sex" id="female" value="female"><label for="male">Женский</label>
+        <input type="button" onclick = "valid(document.getElementById('form'))" name="submit" value="Ok">
+    </form>
+</body>
+</html>
